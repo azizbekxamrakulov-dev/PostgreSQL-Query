@@ -1,14 +1,12 @@
-SELECT
-    *
+SELECT *
 FROM sales
-ORDER BY quantity;
+WHERE city = 'Tashkent';
 
-SELECT
-    *
-FROM sales
-ORDER BY quantity DESC;
 
-SELECT
-    *
+SELECT *
 FROM sales
-ORDER BY customer_name;
+WHERE product = 'Phone';
+
+SELECT * 
+FROM sales 
+WHERE sale_date BETWEEN '2025-09-02' AND '2025-09-05';
